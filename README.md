@@ -30,5 +30,7 @@ Adapted from "moontool.c" by John Walker: See http://www.fourmilab.ch/moontool/
 
 Inspired by https://github.com/oliverkwebb/moonphase/tree/main
 
+# Copyright
+
 Copyright 2024 Henley Cloud Consulting Ltd. 
 
