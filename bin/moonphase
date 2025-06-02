@@ -1,0 +1,14 @@
+#!/usr/bin/env raku
+
+use Moonphase;
+
+sub MAIN($timestamp) {
+    say 'Moon Illunimation: ', moon-illumination($timestamp).round(0.01) 
+}
+
+sub moon-illumination($timestamp) {
+    my $inst = Instant.from-posix: $timestamp;
+
+    return ((1 - cos moonphase($inst)) / 2) * 100;
+}
+
