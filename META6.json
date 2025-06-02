@@ -16,10 +16,10 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/librasteve/Moonphase.git",
   "tags": [
   ],
   "test-depends": [
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
